@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">QR-PASS</string>
+    <string name="string_app_name">QR - Пропуск</string>
+    <string name="string_qr_scanner">Сканер QR-кода</string>
+
+    <!-- StartActivity -->
+    <string name="string_info">Отсканируйте Ваш QR-код чтобы добавить его в приложение</string>
+    <string name="string_scanner">Сканировать QR-Код</string>
+    <string name="string_manually">Ввести данные вручную</string>
+    <string name="string_camera_permission">Ошибка: разрешения на камеру не получено</string>
+
+
 </resources>

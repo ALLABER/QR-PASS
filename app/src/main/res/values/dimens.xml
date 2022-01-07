@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="dimen_margin_max">16dp</dimen>
+    <dimen name="dimen_margin_min">8dp</dimen>
+
+    <dimen name="dimen_padding_max">16dp</dimen>
+    <dimen name="dimen_padding_min">8dp</dimen>
+
+    <dimen name="dimen_button_height">56dp</dimen>
+</resources>
