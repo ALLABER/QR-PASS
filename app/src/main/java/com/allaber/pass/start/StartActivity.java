@@ -2,13 +2,14 @@ package com.allaber.pass.start;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.allaber.pass.R;
 
-public class StartActivity extends AppCompatActivity implements StartView{
+public class StartActivity extends AppCompatActivity implements StartView {
 
     private StartPresenter startPresenter;
     private Button btnScanner;
@@ -33,6 +34,11 @@ public class StartActivity extends AppCompatActivity implements StartView{
     public void setOnClickListener() {
         btnScanner.setOnClickListener(this);
         btnManually.setOnClickListener(this);
+    }
+
+    @Override
+    public AppCompatActivity getActivity() {
+        return this;
     }
 
     @Override

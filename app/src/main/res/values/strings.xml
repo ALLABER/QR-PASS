@@ -8,5 +8,37 @@
     <string name="string_manually">Ввести данные вручную</string>
     <string name="string_camera_permission">Ошибка: разрешения на камеру не получено</string>
 
+    <!-- SectionsPagerAdapter -->
+    <string name="string_tab_text_1">QR - Код</string>
+    <string name="string_tab_text_2">Данные</string>
+
+    <!-- QrFragment -->
+    <string name="string_remove_qr_code">Удалить QR-код</string>
+    <string name="string_share">Поделиться</string>
+    <string name="string_share_body">Я поделился своим qr кодом в приложении QR-PASS</string>
+    <string name="string_share_qr_code">Поделиться QR-кодом</string>
+    <string name="string_copy">Копировать</string>
+    <string name="string_copied">Скопировано</string>
+    <string name="string_qr_code">QR-код</string>
+
+    <!-- DeleteDialog -->
+    <string name="string_confirmation">Подтверждение</string>
+    <string name="string_delete_qr_code">Вы действительно хотите удалить Ваш QR-код</string>
+    <string name="string_delete">Удалить</string>
+    <string name="string_cancel">Отмена</string>
+
+    <!-- ManuallyDialog -->
+    <string name="string_enter_manually">Ввести вручную</string>
+    <string name="string_manual_input">Ручной ввод</string>
+    <string name="string_enter_qr_code">Введите QR-код</string>
+    <string name="string_dialog_apply">Применить</string>
+
+    <!-- SliderActivity -->
+    <string name="string_next">Далее</string>
+    <string name="string_skip">Пропустить</string>
+    <string name="string_ok">Ок</string>
+    <string name="string_fast_access">Быстрый доступ к Вашему QR - коду</string>
+    <string name="string_scan_qr_code">Отсканируйте Ваш QR - код и пользуйтесь им в любой момент</string>
+    <string name="string_confidentiality">Ваши данные никому не передаются. Все храниться на Вашем устройстве</string>
 
 </resources>
