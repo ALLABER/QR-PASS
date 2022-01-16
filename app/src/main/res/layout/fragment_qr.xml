@@ -72,11 +72,12 @@
             android:id="@+id/btnRemove"
             style="?attr/materialButtonOutlinedStyle"
             android:layout_width="match_parent"
+            app:strokeColor="@color/color_delete_button_stroke"
             android:layout_height="@dimen/dimen_button_height"
             android:layout_marginTop="8dp"
             android:text="@string/string_remove_qr_code"
             android:textAllCaps="true"
-            android:textColor="#EF1A1A" />
+            android:textColor="@color/color_delete_button_text" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
