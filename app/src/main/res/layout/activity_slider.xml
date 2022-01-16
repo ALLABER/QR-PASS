@@ -81,7 +81,7 @@
         android:layout_marginStart="@dimen/dimen_margin_max"
         android:layout_marginEnd="@dimen/dimen_margin_max"
         android:layout_marginBottom="@dimen/dimen_margin_max"
-        android:backgroundTint="@color/color_white"
+        android:backgroundTint="@color/color_white_100"
         android:text="@string/string_next"
         android:textAllCaps="false"
         android:textColor="@color/color_button"

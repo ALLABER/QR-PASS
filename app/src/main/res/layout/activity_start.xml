@@ -11,15 +11,21 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground" />
+        android:layout_marginTop="64dp"
+        app:srcCompat="@mipmap/img_scanner_home" />
 
     <TextView
         android:id="@+id/txtInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/string_info" />
+        android:layout_marginTop="@dimen/dimen_margin_max"
+        android:layout_marginBottom="@dimen/dimen_margin_max"
+        android:text="@string/string_info"
+        android:textAlignment="center"
+        android:textColor="@color/color_black"
+        android:textSize="24sp" />
 
     <Button
         android:id="@+id/btnScanner"
@@ -31,6 +37,7 @@
         android:id="@+id/btnManually"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="match_parent"
+        app:strokeColor="@color/color_primary"
         android:layout_height="@dimen/dimen_button_height"
         android:text="@string/string_manually" />
 </LinearLayout>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="color_edit_text">#FF6200EE</color>
-    <color name="color_primary">#944BFA</color>
+    <color name="color_primary">#FFFFFFFF</color>
     <color name="color_second">#FFFFFF</color>
 
     <color name="color_black">#FF000000</color>
 
-    <color name="color_button">#944BFA</color>
-    <color name="color_status_bar">#944BFA</color>
-    <color name="color_app_bar">#944BFA</color>
-    <color name="color_tab_bar">#944BFA</color>
-    <color name="color_splash_screen">#944BFA</color>
+    <color name="color_button">#121212</color>
+    <color name="color_status_bar">#121212</color>
+    <color name="color_app_bar">#121212</color>
+    <color name="color_tab_bar">#121212</color>
+    <color name="color_splash_screen">#121212</color>
 
     <color name="color_border_qr">#F2E7FE</color>
 
     <color name="color_white_100">#FFFFFFFF</color>
-    <color name="color_white_90">#1A000000</color>
+    <color name="color_white_90">#E6FFFFFF</color>
     <color name="color_white_60">#99FFFFFF</color>
     <color name="color_white_20">#33FFFFFF</color>
     <color name="color_white_10">#1AFFFFFF</color>
@@ -23,6 +23,6 @@
     <color name="color_white_0">#00FFFFFF</color>
 
     <color name="color_delete_button_text">#EF1A1A</color>
-    <color name="color_delete_button_stroke">#33000000</color>
+    <color name="color_delete_button_stroke">#E6FFFFFF</color>
 
 </resources>
